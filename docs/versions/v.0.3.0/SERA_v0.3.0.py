@@ -18,18 +18,17 @@ def exit():
     print(f"goodbye,{name}\n See you soon. \n I am shutting down.")
 
 # ======================================================================================       
-import os 
 
-if os.path.exists("memory.txt"):
-    with open ("memory.txt","r") as file:
+try :
+    with open("memory.txt","r") as file:
         name=file.read()
         print("Welcome back,", name)
+except FileNotFoundError:
 
-else:
-    name=input("What is your name?")
-    with open ("memory.txt","w")as file:
-        file.write(name)
-        print("nice to meet you.", name)       
+        name=input("What is your name?")
+        with open ("memory.txt","w")as file:
+            file.write(name)
+            print("nice to meet you.", name)       
 
 
 greet_user(name)
