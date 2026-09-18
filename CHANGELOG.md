@@ -33,3 +33,20 @@ All notable changes to Project SERA will be documented here.
 - `try/except` error handling
 - First-launch handling
 - Welcome-back message for returning users
+
+## [v0.4.0] - Study Companion
+
+### Added
+- Dedicated Study menu
+- Separate Study loop
+- Add subjects
+- View subjects
+- Remove subjects
+- Subject numbering
+- Subject validation
+- Persistent subject storage using `subjects.txt`
+- Automatic loading of saved subjects when SERA starts
+- Automatic updating of `subjects.txt` after adding or removing subjects
+- Used Python lists to manage subjects
+- Used `readlines()` and `strip()` to process saved subjects
+- Improved interaction between the Main Menu and Study Menu
