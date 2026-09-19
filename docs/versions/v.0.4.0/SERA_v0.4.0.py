@@ -1,6 +1,6 @@
 def greet_user(name):
     print("=========================================\n=========================================")
-    print("          Project SERA v0.3")
+    print("          Project SERA v0.4")
     print("=========================================\n=======================================")
     print(f"Hello,{name}")
     print("I am SERA.\n Your personal Ai assistant")
