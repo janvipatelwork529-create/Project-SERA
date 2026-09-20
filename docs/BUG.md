@@ -235,4 +235,4 @@ v0.6.0 involved several technical problems involving:
 - Python environments
 - VS Code interpreter configuration
 
-All critical issues required for v0.6.0 have been resolved.
+All critical issues required for v0.6.0 have been resolved. 
