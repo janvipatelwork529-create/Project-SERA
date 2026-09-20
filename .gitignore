@@ -9,7 +9,12 @@ env/
 
 # Private / local data
 memory.txt
+subjects.txt
+tasks.json
 *.env
+
+# Generated audio
+speech*.mp3
 
 # VS Code
 .vscode/
